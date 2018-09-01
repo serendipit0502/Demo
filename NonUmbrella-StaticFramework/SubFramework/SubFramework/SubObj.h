@@ -1,13 +1,15 @@
 //
-//  NormalObj.h
-//  UmbrellaFramewok
+//  SubObj.h
+//  SubFramework
 //
 //  Created by Serendipit on 2018/8/31.
 //  Copyright © 2018年 Serendipit. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface UmbrellaObj : NSObject
--(void)umbrella;
+@interface SubObj : NSObject
+
+-(void)sub;
+
 @end
