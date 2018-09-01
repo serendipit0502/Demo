@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1258E913213A7CCA000849E4 /* Umbrella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B7306A213A44920009C8B7 /* Umbrella.framework */; };
+		1258E946213A8699000849E4 /* UmbrellaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258E92D213A8609000849E4 /* UmbrellaFramework.framework */; };
 		12B9A25321395E0500ACC777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B9A25221395E0500ACC777 /* AppDelegate.m */; };
 		12B9A25621395E0500ACC777 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B9A25521395E0500ACC777 /* ViewController.m */; };
 		12B9A25921395E0500ACC777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B9A25721395E0500ACC777 /* Main.storyboard */; };
@@ -17,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		12B73069213A44920009C8B7 /* PBXContainerItemProxy */ = {
+		1258E92C213A8609000849E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 12B73063213A44920009C8B7 /* Umbrella.xcodeproj */;
+			containerPortal = 1258E927213A8609000849E4 /* UmbrellaFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 12B9A23721395DAA00ACC777;
 			remoteInfo = Umbrella;
@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		1258E911213A7CC0000849E4 /* SubFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SubFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12B73063213A44920009C8B7 /* Umbrella.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Umbrella.xcodeproj; path = ../../Umbrella/Umbrella.xcodeproj; sourceTree = "<group>"; };
+		1258E927213A8609000849E4 /* UmbrellaFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UmbrellaFramework.xcodeproj; path = ../../UmbrellaFramework/UmbrellaFramework.xcodeproj; sourceTree = "<group>"; };
 		12B9A24E21395E0500ACC777 /* UmbrellaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UmbrellaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B9A25121395E0500ACC777 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12B9A25221395E0500ACC777 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,17 +59,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1258E913213A7CCA000849E4 /* Umbrella.framework in Frameworks */,
+				1258E946213A8699000849E4 /* UmbrellaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12B73064213A44920009C8B7 /* Products */ = {
+		1258E928213A8609000849E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12B7306A213A44920009C8B7 /* Umbrella.framework */,
+				1258E92D213A8609000849E4 /* UmbrellaFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 				12B9A25C21395E0700ACC777 /* LaunchScreen.storyboard */,
 				12B9A25F21395E0700ACC777 /* Info.plist */,
 				12B9A26021395E0700ACC777 /* main.m */,
-				12B73063213A44920009C8B7 /* Umbrella.xcodeproj */,
+				1258E927213A8609000849E4 /* UmbrellaFramework.xcodeproj */,
 			);
 			path = UmbrellaApp;
 			sourceTree = "<group>";
@@ -164,8 +164,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 12B73064213A44920009C8B7 /* Products */;
-					ProjectRef = 12B73063213A44920009C8B7 /* Umbrella.xcodeproj */;
+					ProductGroup = 1258E928213A8609000849E4 /* Products */;
+					ProjectRef = 1258E927213A8609000849E4 /* UmbrellaFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -176,11 +176,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		12B7306A213A44920009C8B7 /* Umbrella.framework */ = {
+		1258E92D213A8609000849E4 /* UmbrellaFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Umbrella.framework;
-			remoteRef = 12B73069213A44920009C8B7 /* PBXContainerItemProxy */;
+			path = UmbrellaFramework.framework;
+			remoteRef = 1258E92C213A8609000849E4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

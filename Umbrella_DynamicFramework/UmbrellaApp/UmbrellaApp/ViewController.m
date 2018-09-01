@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-@import Umbrella;
+@import UmbrellaFramework;
 
 @interface ViewController ()
 
