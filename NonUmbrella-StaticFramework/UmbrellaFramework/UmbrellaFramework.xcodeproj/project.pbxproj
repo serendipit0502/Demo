@@ -10,7 +10,6 @@
 		1258E935213A8629000849E4 /* UmbrellaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1258E930213A8629000849E4 /* UmbrellaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1258E936213A8629000849E4 /* UmbrellaObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 1258E931213A8629000849E4 /* UmbrellaObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1258E938213A8629000849E4 /* UmbrellaObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258E933213A8629000849E4 /* UmbrellaObj.m */; };
-		1258E962213A8ACB000849E4 /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258E961213A8ACB000849E4 /* UTDID.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +28,7 @@
 		1258E933213A8629000849E4 /* UmbrellaObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UmbrellaObj.m; sourceTree = "<group>"; };
 		1258E934213A8629000849E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1258E939213A8649000849E4 /* SubFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SubFramework.xcodeproj; path = ../../SubFramework/SubFramework.xcodeproj; sourceTree = "<group>"; };
-		1258E961213A8ACB000849E4 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		1258E9C9213A9858000849E4 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
 		12B9A23721395DAA00ACC777 /* UmbrellaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UmbrellaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -38,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1258E962213A8ACB000849E4 /* UTDID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +46,7 @@
 		1258E92F213A8629000849E4 /* UmbrellaFramework */ = {
 			isa = PBXGroup;
 			children = (
-				1258E961213A8ACB000849E4 /* UTDID.framework */,
+				1258E9C9213A9858000849E4 /* UTDID.framework */,
 				1258E939213A8649000849E4 /* SubFramework.xcodeproj */,
 				1258E930213A8629000849E4 /* UmbrellaFramework.h */,
 				1258E931213A8629000849E4 /* UmbrellaObj.h */,
